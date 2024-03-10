@@ -1,0 +1,21 @@
+Step 1. Contract Initialization:
+The initiation of the contract involves providing essential details such as the official's address, official's name, proposal description, and an array of choices through the constructor. To maintain the integrity of the voting structure, the constructor mandates the provision of exactly three choices during initialization.
+
+Step 2. Adding Voters:
+In the "Created" state, the official, as the sole authorized entity, can add voters to the system using the addVoter function. Each voter is uniquely identified by their address and is associated with a name. This phase ensures that voter registration occurs before the voting process begins, providing an organized and controlled start to the election.
+
+Step 3. Starting the Vote:
+Upon completing the voter registration phase, the official triggers the commencement of the voting process using the startVote function. This action transitions the contract from the
+"Created" state to the "Voting" state, signaling the beginning of the voting period.
+
+Step 4. Casting Votes:
+During the "Voting" state, eligible voters can cast their votes using the doVote function. Voters
+specify their choices, and the contract validates the eligibility of the voter (ensuring they haven't voted before) and the validity of the chosen option. The contract meticulously keeps track of the total number of votes and increments the count for each specific choice.
+
+Step 5. Ending the Vote:
+Once the voting period concludes, the official concludes the process by invoking the endVote function. This action transitions the contract from the "Voting" state to the "Ended" state,
+signaling the completion of the voting process.
+
+Step 6. Querying Results:
+Post the "Ended" state, anyone, including the official, can query the results using functions like getChoiceDescription and getVoteCounts. These functions provide valuable insights into the
+choices made by voters, allowing for transparent verification of the results and fostering trust in the decentralized voting system.
