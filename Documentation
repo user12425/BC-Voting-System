@@ -1,0 +1,26 @@
+This paper addresses the critical issues of mistrust and lack of transparency in traditional and digital voting systems. It proposes a solution that leverages blockchain technology to create a secure, transparent, and reliable voting system. By highlighting the flaws in existing voting systems and emphasizing the need for a solution that ensures fairness, integrity, and trust in the voting process.
+
+The proposed framework presents a high-level architecture of the voting system, involving key stakeholders such as voters, Voting Management System (VMS), Identifying Authorities (IA), and Authentication Authorities (AA). Voters can participate in the voting process through a decentralized application (dAPP) accessible via smartphones or web browsers. The system verifies the eligibility of voters through their computerized National ID and allows them to cast their votes securely.
+
+The use of blockchain technology in the proposed framework ensures transparency, security, and traceability in the voting process. Each vote is recorded on the blockchain, making it immutable and tamper-proof. Smart contracts are employed to securely execute transactions and establish a connection between users and the network.
+
+The paper also discusses the security aspects of the blockchain-based voting system, including encryption techniques, prevention of 51% attacks, and the use of cryptographic hash functions. It highlights the scalability and performance of the proposed system, demonstrating its feasibility for large-scale implementation.
+ 
+ 
+
+
+The traditional voting system has faced widespread mistrust and challenges due to a lack of transparency and security. To address these issues, this paper proposes a framework that leverages blockchain technology to create a transparent and reliable voting system. The framework aims to build trust between voters and election authorities by providing maximum transparency and integrity in the voting process.
+
+The flaws in traditional and digital voting systems emphasize the need for a solution that ensures fairness and reduces the risk of manipulation.
+It introduces blockchain technology as a potential solution, highlighting its ability to provide transparency, security, and traceability in transactions. The proposed framework presents a high-level architecture of the voting system, involving key stakeholders such as voters, Voting Management System (VMS), Identifying Authorities (IA), and Authentication Authorities (AA).
+
+The framework employs a combination of features of blockchain technology to guarantee the integrity of the electoral process. 
+This includes the verification of eligibility through the use of a computerized National ID, as well as the secure recording of voting transactions on the blockchain. 
+To prevent double voting, each voter is allocated a Voting Coin (VC). Additionally, smart contracts are employed to facilitate secure transactions and connect users to the network. 
+This system uses encryption and cryptographic hash functions to protect the voters’ privacy and prevent unauthorized access. The framework focuses on 51% attacks to ensure the system is resilient against malicious actors.
+
+Performance analysis of the proposed system is performed by simulating real-life scenarios with the help of Remix, a browser based blockchain tool. Real-life scenarios are used to measure the system’s response time as well as its scalability. The evaluation shows that the system is able to efficiently process large numbers of transactions, which makes it suitable for large-scale implementation.
+
+The proposed framework offers improved latency management, simplified voter verification, and enhanced transparency compared to existing solutions by addressing the challenges of complex computation and vulnerability of voter identities. Hence, It offers a solution to the flaws and lack of trust in traditional and digital voting systems.
+ 
+ 
